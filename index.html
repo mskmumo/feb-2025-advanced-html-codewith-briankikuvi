@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- ordered list -->
+     <H2>Numerical ordered list in HTML</H2>
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Python</li>
+    </ol>
+
+    <!-- Embedding external images -->
+     <h2>Embedding Images in HTML</h2>
+     <img src="pexels-javierdiazg-3566419.jpg" alt="London City" width="500" height="300">
+
+    <!-- table -->
+     <h2>Contact Information Table</h2>
+     <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kimberly Keke</td>
+                <td>kimberly.keke@gmail.com</td>
+                <td>0756438932</td>
+            </tr>
+            <tr>
+                <td>Cynthia Mwangi</td>
+                <td>cynthiamwangi78@gmail.com</td>
+                <td>0798543764</td>
+            </tr>
+            <tr>
+                <td>Christine Ouma</td>
+                <td>christineouma.52@gmail.com</td>
+                <td>0789324487</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <!-- Registration form -->
+      <h2>Personal Information Registration Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name here"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email here"><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password here"><br><br>
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password here"><br><br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <!-- Drop down menu -->
+        <label for="country">Select your country</label>
+        <select id="country" name="country" required>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="burundi">Burundi</option>
+            <option value="ethiopia">Ethiopia</option>
+        </select> <br><br>
+        <!-- Radio buttons -->
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <!-- Checkboxes -->
+        <label for="hobbies">Hobbies</label><br>
+        <input type="checkbox" id="hiking" name="hiking" value="hiking">
+        <label for="hiking">Hiking</label><br>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming">Swimming</label><br>
+        <input type="checkbox" id="dancing" name="dancing" value="dancing">
+        <label for="dancing">Dancing</label><br><br>
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+        <!-- Reset button -->
+         <input type="reset" value="Reset">
+      </form>
+
+</body>
+</html>
